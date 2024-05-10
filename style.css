@@ -15,7 +15,7 @@ form{
 }
 
 form select,button,input{
-    width: 100%;
+    width: 90%;
     border: none;
     outline: none;
 }
@@ -70,7 +70,6 @@ form button{
     border-radius: 2rem;
     padding: 1rem;
     font-size: 1rem;
-    cursor: pointer;
 }
 
 .icon{
@@ -83,6 +82,19 @@ form button{
 }
 
 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid lightgray;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0,0.5);
+}
+
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
